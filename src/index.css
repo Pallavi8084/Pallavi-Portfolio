@@ -698,3 +698,40 @@ button:focus-visible, a:focus-visible, input:focus-visible { outline: 2px solid 
   .contact-card { grid-template-columns: 38px 1fr 15px; padding: 13px; }
   .contact-icon { width: 36px; height: 36px; }
 }
+/* ================================
+   EDUCATION
+================================ */
+
+.education-list {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-top: 20px;
+}
+
+.education-item {
+  padding: 18px 20px;
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.025);
+}
+
+.education-item h3 {
+  margin: 0 0 6px;
+  color: #eee9f2;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.education-item p {
+  margin: 0 0 7px;
+  color: #aaa3b2;
+  font-size: 12px;
+}
+
+.education-item span {
+  color: #b47cff;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
